@@ -1,14 +1,14 @@
 # shoppinglist
-this application if for playing with Spring Boot and ES6.
+this application to play with Spring Boot and ES6.
     
 The idea is to run:
-* a backend serving a proposed shopping list and endpoints to keep you own custom list and list states
-* webpages ES6 javascript based.
+* a backend serving shopping lists and endpoints to keep you own custom lists
+* a frontend serving webpages ES6 javascript based.
 
 It is using frontend-maven-plugin to translate ES6 into ES5:
 * by installing node.js and npm
 * running Webpack
-* putting all your javascripts in a jar available for you backend.
+* putting all your javascripts in a jar available for your backend.
 
 It is using spring-boot run the backend.
 
