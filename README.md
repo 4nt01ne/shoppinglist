@@ -12,13 +12,13 @@ It is using frontend-maven-plugin:
 
 It is using spring-boot to compile and run the backend.
 
-##Compile
+## Compile
 In shoppinglist-package directory: mvn clean install
 
-##Run
+## Run
 In shoppinglist-be: java -jar target/shoppinglist-be-1.0-SNAPSHOT.jar
 
-#Test
+# Test
 In a browser, 
 * if ES6 javascript works from you Spring MVC then you will read 'Hello World!' from http://localhost:8080/index.html
 * if you backend is serving the default shopping list then you'll get it in JSON format from http://localhost:8080/proposedItems
