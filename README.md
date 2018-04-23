@@ -10,7 +10,7 @@ It is using frontend-maven-plugin to translate ES6 into ES5:
 * running Webpack
 * putting all your javascripts in a jar available for your backend.
 
-It is using spring-boot run the backend.
+It is using spring-boot to run the backend.
 
 ## Compile
 In shoppinglist-package directory: mvn clean install
@@ -20,5 +20,5 @@ In shoppinglist-be: java -jar target/shoppinglist-be-1.0-SNAPSHOT.jar
 
 ## Test it running
 In a browser, 
-* if ES6 javascript works from you Spring MVC then you will read 'Hello World!' from http://localhost:8080/index.html
-* if you backend is serving the default shopping list then you'll get it in JSON format from http://localhost:8080/proposedItems
+* if ES6 javascript is successfully server by your Spring MVC then you will read 'Hello World!' from http://localhost:8080/index.html
+* if your backend is serving the default shopping list then you'll get it in JSON format from http://localhost:8080/proposedItems
