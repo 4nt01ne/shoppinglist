@@ -8,7 +8,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>../shoppinglist-be</module>
-        <module>../shoppinglist-fe</module>
+        <module>shoppinglist-be</module>
+        <module>shoppinglist-fe</module>
     </modules>
 </project>

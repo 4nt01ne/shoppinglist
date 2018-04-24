@@ -13,7 +13,8 @@ It is using frontend-maven-plugin to translate ES6 into ES5:
 It is using spring-boot to run the backend.
 
 ## Compile
-In shoppinglist-package directory: mvn clean install
+From the root directory: mvn clean install
+
 
 ## Run
 In shoppinglist-be: java -jar target/shoppinglist-be-1.0-SNAPSHOT.jar
