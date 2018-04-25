@@ -7,7 +7,7 @@ const PATHS = {
 };
 
 module.exports = {
-    entry: './app/index.js',
+    entry: './app/proposedItems.js',
 
     output: {
         path: PATHS.build,
