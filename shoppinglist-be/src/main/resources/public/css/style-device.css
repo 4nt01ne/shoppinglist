@@ -1,0 +1,264 @@
+/** ----------- SMALL ----------- **/
+/** Portrait and Landscape **/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px) {
+     .descIphoneOrientation::after{
+         content:"SMALL portrait landscape";
+     }
+}
+
+/** Portrait **/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (orientation: portrait) {
+    .descIphoneOrientation::after{
+        content:"SMALL portrait";
+    }
+}
+
+/** Landscape **/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 480px)
+and (orientation: landscape) {
+    .descIphoneOrientation::after{
+        content:"SMALL landscape";
+    }
+}
+
+/** ----------- MEDIUM ----------- **/
+/** Portrait and Landscape **/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
+    .descIphoneOrientation::after{
+        content:"MEDIUM portrait landscape";
+    }
+}
+
+/** Portrait **/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (orientation: portrait) {
+    .descIphoneOrientation::after{
+        content:"MEDIUM portrait";
+    }
+}
+
+/** Landscape **/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (orientation: landscape) {
+    .descIphoneOrientation::after{
+        content:"MEDIUM landscape";
+    }
+}
+
+/** ----------- MEDIUM+ ----------- **/
+
+/** Portrait and Landscape **/
+@media screen
+and (device-width: 320px)
+and (device-height: 640px) {
+    .descGalaxyOrientation::after{
+        content:"MEDIUM+ portrait landscape";
+    }
+}
+
+/** Portrait **/
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (orientation: portrait) {
+    .descGalaxyOrientation::after{
+        content:"MEDIUM+ portrait";
+    }
+}
+
+/** Landscape **/
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (orientation: landscape) {
+    .descGalaxyOrientation::after{
+        content:"MEDIUM+ landscape";
+    }
+}
+
+/** ----------- MEDIUM++ ----------- **/
+
+/** Portrait and Landscape **/
+@media screen
+and (device-width: 360px)
+and (device-height: 640px) {
+    .descGalaxyOrientation::after{
+        content:"MEDIUM++ portrait landscape";
+    }
+}
+
+/** Portrait **/
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (orientation: portrait) {
+    .descGalaxyOrientation::after{
+        content:"MEDIUM++ portrait";
+    }
+}
+
+/** Landscape **/
+@media screen
+and (device-width: 360px)
+and (device-height: 640px)
+and (orientation: landscape) {
+    .descGalaxyOrientation::after{
+        content:"MEDIUM++ landscape";
+    }
+}
+
+/** ----------- LARGE ----------- **/
+
+/** Portrait and Landscape **/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px) {
+    .descIphoneOrientation::after{
+        content:"LARGE portrait landscape";
+    }
+}
+
+/** Portrait **/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (orientation: portrait) {
+    .descIphoneOrientation::after{
+        content:"LARGE portrait";
+    }
+}
+
+/** Landscape **/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (orientation: landscape) {
+    .descIphoneOrientation::after{
+        content:"LARGE portrait";
+    }
+}
+
+/** ----------- Extra Large ----------- **/
+
+/** Portrait and Landscape **/
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px) {
+    .descIphoneOrientation::after{
+        content:"XL portrait landscape";
+    }
+}
+
+/** Portrait **/
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (orientation: portrait) {
+    .descIphoneOrientation::after{
+        content:"XL portrait";
+    }
+}
+
+/** Landscape **/
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (orientation: landscape) {
+    .descIphoneOrientation::after{
+        content:"XL landscape";
+    }
+}
+
+/** ----------- XXL ----------- **/
+
+/** Portrait and Landscape **/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px) {
+    .descIphoneOrientation::after{
+        content:"XXL portrait landscape";
+    }
+}
+
+/** Portrait **/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (orientation: portrait) {
+    .descIphoneOrientation::after{
+        content:"XXL portrait";
+    }
+}
+
+/** Landscape **/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (orientation: landscape) {
+    .descIphoneOrientation::after{
+        content:"XXL landscape";
+    }
+}
+
+/** ----------- XXXL ----------- **/
+
+/** Portrait and Landscape **/
+@media screen
+and (device-width: 480px)
+and (device-height: 800px) {
+    .descWindowsOrientation::after{
+        content:"XXXL portrait landscape";
+    }
+}
+
+/** Portrait **/
+@media screen
+and (device-width: 480px)
+and (device-height: 800px)
+and (orientation: portrait) {
+    .descWindowsOrientation::after{
+        content:"XXXL portrait landscape";
+    }
+}
+
+/** Landscape **/
+@media screen
+and (device-width: 480px)
+and (device-height: 800px)
+and (orientation: landscape) {
+    .descWindowsOrientation::after{
+        content:"XXXL portrait landscape";
+    }
+}
+
+/** ----------- XXXXL ----------- **/
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px) {
+    .descScreen::after{
+        content:"XXXXL Non Retina";
+    }
+}
+
+/** ----------- XXXXL----------- **/
+@media screen
+and (min-device-width: 1200px)
+and (max-device-width: 1600px)
+and (min-resolution: 192dpi) {
+    .descScreen::after {
+        content: "XXXXL Retina";
+    }
+}
