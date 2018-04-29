@@ -20,25 +20,18 @@
     user-select: none;
 }
 
-.css-treeview a
-{
-    color: #00f;
-    text-decoration: none;
-}
-
-.css-treeview a:hover
-{
-    text-decoration: underline;
-}
-
 .css-treeview input + label + ul
 {
     margin: 0 0 0 22px;
+    display: none;
 }
 
-.css-treeview input + label + ul
+.item::before
 {
-    display: none;
+    content: "";
+    width: 16px;
+    margin: 0 22px 0 0;
+    vertical-align: middle;
 }
 
 .css-treeview label,
@@ -58,23 +51,43 @@
     display: block;
 }
 
-.css-treeview label,
-.css-treeview label::before
+.css-treeview label
+/*.css-treeview label::before*/
 {
-    background: url("icons.png") no-repeat;
+    background: url("../img/collapse-arrow--24.png") no-repeat;
+    background-size: 10px 10px;
+}
+
+.css-treeview input:checked + label
+/*.css-treeview input:checked + label::before*/
+{
+    background-image:url("../img/expand-arrow-24.png");
+    background-size: 10px 10px;
+}
+
+.css-treeview input:checked + label
+/*.css-treeview input:checked + label::before*/
+{
+    background-position: 0 -16px;
+}
+
+.css-treeview input + label
+.css-treeview input + label::before
+{
+    background-position: 0 -16px;
 }
 
 .css-treeview label,
-.css-treeview a,
 .css-treeview label::before
 {
     display: inline-block;
     height: 16px;
     line-height: 16px;,
-vertical-align: middle;
+    vertical-align: middle;
 }
 
-.css-treeview label
+.css-treeview label,
+.css-treeview input:checked + label
 {
     background-position: 18px 0;
 }
@@ -86,11 +99,6 @@ vertical-align: middle;
     margin: 0 22px 0 0;
     vertical-align: middle;
     background-position: 0 -32px;
-}
-
-.css-treeview input:checked + label::before
-{
-    background-position: 0 -16px;
 }
 
 /* webkit adjacent element selector bugfix */
